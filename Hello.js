@@ -6,7 +6,7 @@ const axios = require("axios");
 app.get("/github-repo", async (req, res) => {
   try {
     const username = "Willy-T9"; // Replace with the actual GitHub username
-    const repoName = "miz"; // Replace with the actual repository name
+    const repoName = "Sammy"; // Replace with the actual repository name
 
     const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`);
 
